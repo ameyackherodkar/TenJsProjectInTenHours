@@ -6,4 +6,58 @@
 
 body{
     font-family: "Roboto",sans-serif;
+    background: #FFEFBA; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppings", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+
+}
+img{
+    max-width: 100%;
+}
+.mobile-container{
+    width: 400px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+header input{
+    background-color: #eee;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: #aaa;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.fav-container{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.fav-meals{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+}
+
+.fav-meals li img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
 }
